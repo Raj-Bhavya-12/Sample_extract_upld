@@ -41,6 +41,17 @@ echo Logout Successful
 echo ----------------------------------------------
 
 
+echo ----------------------------------------------
+
+echo Disconnecting VPN
+
+echo ----------------------------------------------
+call "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpncli.exe" disconnect
+
+echo ----------------------------------------------
+
+echo Disconnected Successfully
+
 
 echo ----------------------------------------------
 
