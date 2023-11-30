@@ -1,0 +1,17 @@
+EPMAutomate version is 23.11.39
+jarPath: /C:/Oracle/EPM%20Automate/lib/epmautomate.jar
+jarPath: /C:/Oracle/EPM Automate/lib/epmautomate.jar
+Enter Method checkForPrefs of class com.hyperion.epmctl.client.util.PreferencesUtil
+Exit Method checkForPrefs of class com.hyperion.epmctl.client.util.PreferencesUtil
+Inactivity connection validity: 500
+Class: com.hyperion.epmctl.client.authenticate.OPAuthenticateImplMethod: authenticate
+2023/11/30 11:35:21:073 IST [DEBUG] RequestAddCookies - CookieSpec selected: default
+2023/11/30 11:35:21:080 IST [DEBUG] RequestAuthCache - Auth cache not set in the context
+2023/11/30 11:35:21:082 IST [DEBUG] PoolingHttpClientConnectionManager - Connection request: [route: {}->http://phoenix229383.appsdev.fusionappsdphx1.oraclevcn.com:9116][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 20]
+2023/11/30 11:35:21:091 IST [DEBUG] PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://phoenix229383.appsdev.fusionappsdphx1.oraclevcn.com:9116][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 20]
+2023/11/30 11:35:21:092 IST [DEBUG] MainClientExec - Opening connection {}->http://phoenix229383.appsdev.fusionappsdphx1.oraclevcn.com:9116
+2023/11/30 11:35:25:669 IST [DEBUG] DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+2023/11/30 11:35:25:669 IST [DEBUG] MainClientExec - Connection discarded
+2023/11/30 11:35:25:669 IST [DEBUG] PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://phoenix229383.appsdev.fusionappsdphx1.oraclevcn.com:9116][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 20]
+HttpRetryHandler [ROOT CAUSE: UnknownHostException:This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server (phoenix229383.appsdev.fusionappsdphx1.oraclevcn.com)] [METHOD: GET] [URI: /interop/rest/] [RETRY COUNT: 0]
+HttpRetryHandler [RETRY: TRUE] [METHOD: GET] [URI: /interop/rest/]
