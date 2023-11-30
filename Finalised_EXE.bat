@@ -18,7 +18,7 @@ echo ----------------------------------------------
 echo Downloading file from the application
 
 echo ----------------------------------------------
-call epmautomate downloadFile "BRS_SAMPLE_1.zip"
+call epmautomate downloadFile "BRS_Sample_3.zip"
 
 echo ----------------------------------------------
 
